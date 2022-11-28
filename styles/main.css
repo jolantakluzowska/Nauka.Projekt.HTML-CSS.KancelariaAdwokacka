@@ -1,5 +1,43 @@
-.class {
-  background-color: white;
+body {
+  background-color: #212529;
+  font-family: "Radley", serif;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.header {
+  background-color: blue;
+  display: flex;
+  height: 5.875rem;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.25rem;
+  margin-left: 4rem;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  background-color: aquamarine;
+}
+
+ol {
+  padding: 1rem;
+  list-style-type: none;
+  line-height: 200%;
+}
+
+ol a {
+  color: white;
+  text-decoration: none;
+}
+
+ol > li {
+  float: right;
 }
 
 /*# sourceMappingURL=main.css.map */
