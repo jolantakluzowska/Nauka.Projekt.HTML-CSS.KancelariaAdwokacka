@@ -7,13 +7,9 @@ body
   width: 100%;
 }
 .header {
-  background-color: blue;
   display: flex;
   height: 5.875rem;
  width: 100%;
-  flex-direction: row;
-  justify-content: space-between;
-
 }
 .logo {
   font-size: 1.25rem;
@@ -21,12 +17,15 @@ body
   display: flex;
   align-items: center;
   color: #FFFFFF;
-  background-color: aquamarine;
+}
+.nav {
+  margin-left: 45rem;
 }
 ol {
-  padding: 1rem;
+  padding: 0;
   list-style-type: none;
-  line-height: 200%;
+
+
 
 }
 ol a {
@@ -36,4 +35,5 @@ ol a {
 }
 ol>li {
   float: right;
+  padding: 1.4rem;
 }
