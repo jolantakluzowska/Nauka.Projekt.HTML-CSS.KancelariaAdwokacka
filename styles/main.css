@@ -25,6 +25,10 @@ body {
   margin-left: 45rem;
 }
 
+.icons {
+  color: #FFFFFF;
+}
+
 ol {
   padding: 0;
   list-style-type: none;
