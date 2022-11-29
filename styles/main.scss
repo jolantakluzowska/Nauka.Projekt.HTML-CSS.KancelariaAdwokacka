@@ -5,11 +5,13 @@ body
 }
 .wrapper {
   width: 100%;
+
 }
 .header {
   display: flex;
   height: 5.875rem;
  width: 100%;
+
 }
 .logo {
   font-size: 1.25rem;
@@ -19,23 +21,16 @@ body
   color: #FFFFFF;
 }
 .nav {
-  margin-left: 45rem;
+  width: 90%;
+  display: inline-block;
 }
-.icons
-{
-  color: #FFFFFF;
+.sticky {
+  position: fixed;
 }
+
 ol {
   padding: 0;
   list-style-type: none;
-.sticky
-{
-  width: 100%;
-  position: fixed;
-  left:0;
-  top:0;
-  z-index:100;
-}
 
 
 }
@@ -47,4 +42,5 @@ ol a {
 ol>li {
   float: right;
   padding: 1.4rem;
+
 }

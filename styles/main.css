@@ -22,23 +22,17 @@ body {
 }
 
 .nav {
-  margin-left: 45rem;
+  width: 90%;
+  display: inline-block;
 }
 
-.icons {
-  color: #FFFFFF;
+.sticky {
+  position: fixed;
 }
 
 ol {
   padding: 0;
   list-style-type: none;
-}
-ol .sticky {
-  width: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 100;
 }
 
 ol a {
