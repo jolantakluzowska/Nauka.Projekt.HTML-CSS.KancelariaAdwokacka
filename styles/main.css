@@ -1,5 +1,51 @@
-.class {
-  background-color: black;
+:root {
+  --main-bg-color: #212529;
+}
+body {
+  background-color: #212529;
+  font-family: "Radley", serif;
+  height: 110vh;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  height: 5.875rem;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.25rem;
+  margin-left: 4rem;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.nav {
+  width: 90%;
+}
+
+.sticky {
+  position: fixed;
+}
+
+ol {
+  padding: 0;
+  list-style-type: none;
+}
+
+ol a {
+  color: white;
+  text-decoration: none;
+}
+
+ol > li {
+  float: right;
+  padding: 1.4rem;
 }
 
 /*# sourceMappingURL=main.css.map */
