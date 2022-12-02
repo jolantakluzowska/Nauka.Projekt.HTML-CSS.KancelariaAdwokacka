@@ -1,6 +1,10 @@
+:root {
+  --main-bg-color: #212529;
+}
 body {
   background-color: #212529;
   font-family: "Radley", serif;
+  height: 110vh;
 }
 
 .wrapper {
@@ -23,7 +27,6 @@ body {
 
 .nav {
   width: 90%;
-  display: inline-block;
 }
 
 .sticky {
