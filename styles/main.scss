@@ -1,7 +1,9 @@
-body
-{
+@import "nav";
+@import "recommendation";
+
+body {
   background-color: #212529;
-  font-family: 'Radley', serif;
+  font-family: 'Radley', serif; // todo: add Google Font - search for documentation
 }
 
 .wrapper {
@@ -23,27 +25,7 @@ body
   align-items: center;
   color: #FFFFFF;
 }
-.nav {
-  width: 90%;
-  display: inline-block;
-}
+
 .sticky {
   position: fixed;
-}
-
-ol {
-  padding: 0;
-  list-style-type: none;
-
-
-}
-ol a {
-  color: white;
-  text-decoration: none;
-
-}
-ol>li {
-  float: right;
-  padding: 1.4rem;
-
 }

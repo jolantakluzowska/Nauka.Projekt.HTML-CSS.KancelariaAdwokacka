@@ -1,0 +1,18 @@
+.nav {
+  width: 90%;
+  display: inline-block;
+}
+.nav ol {
+  padding: 0;
+  list-style-type: none;
+}
+.nav ol a {
+  color: white;
+  text-decoration: none;
+}
+.nav ol > li {
+  float: right;
+  padding: 1.4rem;
+}
+
+/*# sourceMappingURL=nav.css.map */
