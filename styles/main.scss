@@ -5,11 +5,14 @@ body {
   background-color: #212529;
   font-family: 'Radley', serif; // todo: add Google Font - search for documentation
 }
-
+.photo {
+  height: 33rem;
+  width: auto;
+}
 .wrapper {
   width: 100%;
-
 }
+
 
 .header {
   display: flex;
@@ -17,7 +20,6 @@ body {
   width: 100%;
 
 }
-
 .logo {
   font-size: 1.25rem;
   margin-left: 4rem;

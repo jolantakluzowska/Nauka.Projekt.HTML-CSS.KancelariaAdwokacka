@@ -67,6 +67,11 @@ body {
   font-family: "Radley", serif;
 }
 
+.photo {
+  height: 33rem;
+  width: auto;
+}
+
 .wrapper {
   width: 100%;
 }
