@@ -1,6 +1,10 @@
 .nav {
-  width: 90%;
   display: inline-block;
+  font-size: 1.5rem;
+}
+.nav i {
+  color: white;
+  font-size: 1.5rem;
 }
 .nav ol {
   padding: 0;
@@ -11,8 +15,8 @@
   text-decoration: none;
 }
 .nav ol > li {
-  float: right;
-  padding: 1.4rem;
+  float: left;
+  padding-right: 2rem;
 }
 
 .recommendations .single-recommendation {
@@ -43,6 +47,7 @@
   margin-bottom: 1.5rem;
   font-size: 1.375rem;
   z-index: 999;
+  position: relative;
 }
 .recommendations .single-recommendation__signature {
   display: flex;
@@ -68,8 +73,12 @@ body {
 }
 
 .photo {
-  height: 33rem;
-  width: auto;
+  background: url("./../assets/images/photo.jpg");
+  height: 37rem;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -5rem;
 }
 
 .wrapper {
@@ -77,21 +86,23 @@ body {
 }
 
 .header {
+  background-color: #212529;
+  position: sticky;
+  top: 0;
   display: flex;
   height: 5.875rem;
   width: 100%;
+  z-index: 10000;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  font-size: 1.25rem;
+  font-size: 2rem;
   margin-left: 4rem;
   display: flex;
   align-items: center;
   color: #FFFFFF;
-}
-
-.sticky {
-  position: fixed;
 }
 
 /*# sourceMappingURL=main.css.map */

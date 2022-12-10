@@ -1,14 +1,33 @@
 @import "nav";
 @import "recommendation";
 
+$main-background-color: #212529;
+$menu-font-color: #FFFFFF;
+@mixin with-background-color($color) {
+  background-color: $color;
+  // najbardziej sie przydaje jak masz tutaj jeszcze cos
+}
+
+@mixin sticky-on-top {
+  position: sticky;
+  top: 0;
+}
+
+
 body {
-  background-color: #212529;
+  background-color: $main-background-color;
   font-family: 'Radley', serif; // todo: add Google Font - search for documentation
 }
+
 .photo {
-  height: 33rem;
-  width: auto;
+  background: url("./../assets/images/photo.jpg");
+  height: 37rem;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -5rem;
 }
+
 .wrapper {
   width: 100%;
 }
@@ -20,14 +39,13 @@ body {
   width: 100%;
 
 }
+
 .logo {
-  font-size: 1.25rem;
+  font-size: 2rem;
   margin-left: 4rem;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: $menu-font-color;
 }
 
-.sticky {
-  position: fixed;
-}
+
