@@ -9,6 +9,7 @@
 .nav ol {
   padding: 0;
   list-style-type: none;
+  margin: 0;
 }
 .nav ol a {
   color: white;
@@ -70,6 +71,7 @@
 body {
   background-color: #212529;
   font-family: "Radley", serif;
+  margin: 0;
 }
 
 .photo {
