@@ -34,10 +34,15 @@ body {
 
 
 .header {
+  @include with-background-color($main-background-color);
+  @include sticky-on-top;
+
   display: flex;
   height: 5.875rem;
   width: 100%;
-
+  z-index: 10000;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
