@@ -20,9 +20,8 @@
     }
 
     &__quote-icon { // todo: replace wit quote icon
-      width: 2.25rem;
-      height: 2.25rem;
-      background-color: aquamarine;
+     font-size: 2rem;
+
     }
 
     &__text {
@@ -40,8 +39,8 @@
       &__icon { // todo: replace with user icon
         width: 4rem;
         height: 4rem;
-        background-color: aquamarine;
-        margin-right: 1rem;
+        background: url("./../assets/images/image 1.jpg");
+        margin-right:  1rem;
       }
 
       &__name {

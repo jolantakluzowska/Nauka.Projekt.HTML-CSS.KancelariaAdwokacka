@@ -39,9 +39,7 @@
   left: 24rem;
 }
 .recommendations .single-recommendation__quote-icon {
-  width: 2.25rem;
-  height: 2.25rem;
-  background-color: aquamarine;
+  font-size: 2rem;
 }
 .recommendations .single-recommendation__text {
   margin-top: 1.5rem;
@@ -57,7 +55,7 @@
 .recommendations .single-recommendation__signature__icon {
   width: 4rem;
   height: 4rem;
-  background-color: aquamarine;
+  background: url("./../assets/images/image 1.jpg");
   margin-right: 1rem;
 }
 .recommendations .single-recommendation__signature__name {
