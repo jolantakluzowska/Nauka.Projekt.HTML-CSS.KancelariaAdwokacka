@@ -107,4 +107,29 @@ body {
   color: #FFFFFF;
 }
 
+.intro {
+  background-color: #212529;
+  display: flex;
+  font-size: 1.5rem;
+  color: #dddddd;
+  height: 21rem;
+  align-items: center;
+  column-gap: 30rem;
+}
+.intro h1 {
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+.intro .intro__button {
+  background-color: #212529;
+  width: 95rem;
+}
+.intro .intro__button .button {
+  color: #FFFFFF;
+  text-align: center;
+  width: 38rem;
+  height: 4rem;
+  background-color: #495057;
+}
+
 /*# sourceMappingURL=main.css.map */

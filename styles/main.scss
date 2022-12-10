@@ -53,5 +53,29 @@ body {
   align-items: center;
   color: $menu-font-color;
 }
+.intro {
+  background-color: $main-background-color;
+  display: flex;
+  font-size: 1.5rem;
+  color: #dddddd;
+  height: 21rem;
+align-items: center;
+column-gap: 30rem;
+h1 {
+  font-size: 2rem;
+  color: $menu-font-color;
+}
+.intro__button {
+background-color: $main-background-color;
+  width: 95rem;
 
+.button{
+  color: $menu-font-color;
+  text-align: center;
+  width: 38rem;
+  height: 4rem;
+  background-color: #495057;
 
+}
+}
+}
