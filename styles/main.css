@@ -146,6 +146,8 @@ body {
 .content .intro {
   background-color: #212529;
   color: #dddddd;
+  margin-left: 2rem;
+  margin-right: 10rem;
 }
 .content .intro h1 {
   font-size: 1.5rem;
