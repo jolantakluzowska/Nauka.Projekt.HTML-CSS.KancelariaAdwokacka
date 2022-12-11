@@ -1,6 +1,7 @@
 @import "nav";
 @import "recommendation";
 @import "animations";
+
 $main-background-color: #212529;
 $menu-font-color: #FFFFFF;
 @mixin with-background-color($color) {
@@ -37,7 +38,6 @@ body {
 .header {
   @include with-background-color($main-background-color);
   @include sticky-on-top;
-
   display: flex;
   height: 5.875rem;
   width: 100%;
@@ -47,6 +47,7 @@ body {
 }
 
 .logo {
+
   font-size: 2rem;
   margin-left: 4rem;
   display: flex;
@@ -54,35 +55,82 @@ body {
   color: $menu-font-color;
 }
 
-.intro {
+.content {
   display: flex;
-  background-color: $main-background-color;
-  font-size: 1.5rem;
-  color: #dddddd;
-  height: 21rem;
-  align-items: center;
-  gap: 20rem;
 
-  h1 {
-    font-size: 2rem;
-    color: $menu-font-color;
+  .intro {
+    background-color: $main-background-color;
+    color: #dddddd;
+
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+    }
+  }
+    .intro__button {
+      border-left: #FFFFFF solid 0.1rem;
+border-left-style: groove;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $main-background-color;
+      width: 95rem;
+
+
+      .button {
+        border: #DCDCDC 0.1rem solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $menu-font-color;
+        text-align: center;
+        width: 38rem;
+        height: 4rem;
+        background-color: #495057;
+        font-size: 1.5rem;
+
+
+      }
+    }
+  }
+
+
+
+.about {
+  display: flex;
+  justify-content: space-evenly;
+
+  .short-movie {
+    background-color: $main-background-color;
+    height: 45.1rem;
+    width: 100rem;
+    display: flex;
+    justify-content: center;
 
   }
 
-  .intro__button {
-    background-color: $main-background-color;
-    width: 95rem;
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    background: #1c1d1f;
+    height: 45.1rem;
+    width: 50rem;
+    color: #DCDCDC;
 
-
-    .button {
-
-      color: $menu-font-color;
+    h1, h2, h3 {
       text-align: center;
-      width: 38rem;
-      height: 4rem;
-      background-color: #495057;
-
-
+      align-content: center;
     }
+
+  }
+
+  img {
+    width: 70%;
+    height: 70%;
+    margin: 0;
   }
 }
