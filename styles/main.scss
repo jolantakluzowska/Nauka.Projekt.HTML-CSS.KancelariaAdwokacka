@@ -1,6 +1,6 @@
 @import "nav";
 @import "recommendation";
-
+@import "animations";
 $main-background-color: #212529;
 $menu-font-color: #FFFFFF;
 @mixin with-background-color($color) {
@@ -53,30 +53,36 @@ body {
   align-items: center;
   color: $menu-font-color;
 }
+
 .intro {
   display: flex;
   background-color: $main-background-color;
- font-size: 1.5rem;
+  font-size: 1.5rem;
   color: #dddddd;
   height: 21rem;
   align-items: center;
-gap: 30rem;
-h1 {
-  font-size: 2rem;
-  color: $menu-font-color;
-}
-.intro__button {
-background-color: $main-background-color;
-  width: 95rem;
+  gap: 20rem;
+
+  h1 {
+    font-size: 2rem;
+    color: $menu-font-color;
+
+  }
+
+  .intro__button {
+    background-color: $main-background-color;
+    width: 95rem;
 
 
-.button{
-  color: $menu-font-color;
-  text-align: center;
-  width: 38rem;
-  height: 4rem;
-  background-color: #495057;
+    .button {
 
-}
-}
+      color: $menu-font-color;
+      text-align: center;
+      width: 38rem;
+      height: 4rem;
+      background-color: #495057;
+
+
+    }
+  }
 }

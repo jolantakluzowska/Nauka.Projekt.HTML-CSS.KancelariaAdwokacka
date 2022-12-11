@@ -70,6 +70,10 @@
   color: #5B5B5B;
 }
 
+.animation {
+  background: url(./../assets/images/);
+}
+
 body {
   background-color: #212529;
   font-family: "Radley", serif;
@@ -116,7 +120,7 @@ body {
   color: #dddddd;
   height: 21rem;
   align-items: center;
-  gap: 30rem;
+  gap: 20rem;
 }
 .intro h1 {
   font-size: 2rem;
