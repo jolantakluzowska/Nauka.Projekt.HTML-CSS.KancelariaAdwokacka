@@ -70,10 +70,45 @@
   color: #5B5B5B;
 }
 
-.animation {
+.animation .parent {
   background: url("./../assets/images/component 1.png");
-  width: 200rem;
+  width: 160rem;
   height: 12rem;
+}
+.animation .child {
+  background: url("./../assets/images/component 2.png");
+  width: 160rem;
+  height: 12rem;
+}
+.animation .second-child {
+  background: url("./../assets/images/component 3.png");
+  width: 160rem;
+  height: 12rem;
+}
+
+@keyframes imageAnimation {
+  0% {
+    background: url("./../assets/images/component 1.png");
+  }
+  33% {
+    background: url("./../assets/images/component 2.png");
+  }
+  66% {
+    background: url("./../assets/images/component 3.png");
+  }
+  100% {
+    background: url("./../assets/images/component 1.png");
+  }
+}
+#animatedElement {
+  width: 160rem;
+  height: 12rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  animation-name: imageAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 body {
