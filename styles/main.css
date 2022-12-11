@@ -110,13 +110,13 @@ body {
 }
 
 .intro {
-  background-color: #212529;
   display: flex;
+  background-color: #212529;
   font-size: 1.5rem;
   color: #dddddd;
   height: 21rem;
   align-items: center;
-  column-gap: 30rem;
+  gap: 30rem;
 }
 .intro h1 {
   font-size: 2rem;
