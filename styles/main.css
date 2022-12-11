@@ -75,16 +75,6 @@
   width: 160rem;
   height: 12rem;
 }
-.animation .child {
-  background: url("./../assets/images/component 2.png");
-  width: 160rem;
-  height: 12rem;
-}
-.animation .second-child {
-  background: url("./../assets/images/component 3.png");
-  width: 160rem;
-  height: 12rem;
-}
 
 @keyframes imageAnimation {
   0% {
@@ -150,29 +140,68 @@ body {
   color: #FFFFFF;
 }
 
-.intro {
+.content {
   display: flex;
+}
+.content .intro {
   background-color: #212529;
-  font-size: 1.5rem;
   color: #dddddd;
-  height: 21rem;
+}
+.content .intro h1 {
+  font-size: 1.5rem;
+}
+.content .intro h2 {
+  font-size: 1.2rem;
+}
+.content .intro__button {
+  border-left: #FFFFFF solid 0.1rem;
+  border-left-style: groove;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 20rem;
-}
-.intro h1 {
-  font-size: 2rem;
-  color: #FFFFFF;
-}
-.intro .intro__button {
   background-color: #212529;
   width: 95rem;
 }
-.intro .intro__button .button {
+.content .intro__button .button {
+  border: #DCDCDC 0.1rem solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #FFFFFF;
   text-align: center;
   width: 38rem;
   height: 4rem;
   background-color: #495057;
+  font-size: 1.5rem;
+}
+
+.about {
+  display: flex;
+  justify-content: space-evenly;
+}
+.about .short-movie {
+  background-color: #212529;
+  height: 45.1rem;
+  width: 100rem;
+  display: flex;
+  justify-content: center;
+}
+.about .about-me {
+  display: flex;
+  flex-direction: column;
+  background: #1c1d1f;
+  height: 45.1rem;
+  width: 50rem;
+  color: #DCDCDC;
+}
+.about .about-me h1, .about .about-me h2, .about .about-me h3 {
+  text-align: center;
+  align-content: center;
+}
+.about img {
+  width: 70%;
+  height: 70%;
+  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
