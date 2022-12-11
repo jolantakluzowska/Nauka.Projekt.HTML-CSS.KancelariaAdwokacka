@@ -1,4 +1,6 @@
 .recommendations {
+display: flex;
+  justify-content: space-evenly;
 
   .single-recommendation {
     background-color: #DDDDDD;
