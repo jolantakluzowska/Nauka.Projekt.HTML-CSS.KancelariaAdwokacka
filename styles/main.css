@@ -20,6 +20,10 @@
   padding-right: 2rem;
 }
 
+.recommendations {
+  display: flex;
+  justify-content: space-evenly;
+}
 .recommendations .single-recommendation {
   background-color: #DDDDDD;
   border-radius: 40px;
