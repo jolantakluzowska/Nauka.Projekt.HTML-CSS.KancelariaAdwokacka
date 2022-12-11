@@ -54,13 +54,13 @@ body {
   color: $menu-font-color;
 }
 .intro {
-  background-color: $main-background-color;
   display: flex;
-  font-size: 1.5rem;
+  background-color: $main-background-color;
+ font-size: 1.5rem;
   color: #dddddd;
   height: 21rem;
-align-items: center;
-column-gap: 30rem;
+  align-items: center;
+gap: 30rem;
 h1 {
   font-size: 2rem;
   color: $menu-font-color;
@@ -68,6 +68,7 @@ h1 {
 .intro__button {
 background-color: $main-background-color;
   width: 95rem;
+
 
 .button{
   color: $menu-font-color;
