@@ -71,8 +71,9 @@
 }
 
 .animation {
+  background: url("./../assets/images/component 1.png");
   width: 200rem;
-  height: 15rem;
+  height: 12rem;
 }
 
 body {
