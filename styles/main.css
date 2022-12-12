@@ -213,15 +213,47 @@
   height: 45.1rem;
   width: 50rem;
   color: #DCDCDC;
+  text-align: center;
+  text-justify: auto;
 }
-.about .about-me h1, .about .about-me h2, .about .about-me h3 {
+.about .about-me h1, .about .about-me h2 {
   text-align: center;
   align-content: center;
 }
 .about img {
-  width: 70%;
-  height: 70%;
+  width: 60%;
+  height: 60%;
   margin: 0;
+}
+
+.contact-part .intro-contact {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  margin-left: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.contact-part .contact-details {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #dddddd;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.contact-part .contact-details .name {
+  margin-right: 4rem;
+}
+.contact-part .contact-details .address {
+  margin-left: 4rem;
+}
+.contact-part iframe {
+  width: 35rem;
+  height: 30rem;
 }
 
 body {

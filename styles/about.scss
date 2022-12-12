@@ -22,17 +22,20 @@ align-items: center;
     height: 45.1rem;
     width: 50rem;
     color: #DCDCDC;
-
-    h1, h2, h3 {
+  text-align: center;
+    text-justify: auto;
+    h1, h2 {
       text-align: center;
       align-content: center;
+
     }
+
 
   }
 
   img {
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     margin: 0;
   }
 }
