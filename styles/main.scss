@@ -145,3 +145,13 @@ border-left-style: groove;
     margin: 0;
   }
 }
+.intro-recommendations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: $menu-font-color;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+
+}

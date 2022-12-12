@@ -260,4 +260,14 @@ body {
   margin: 0;
 }
 
+.intro-recommendations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #FFFFFF;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+}
+
 /*# sourceMappingURL=main.css.map */
