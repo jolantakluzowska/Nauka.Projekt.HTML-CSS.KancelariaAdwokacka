@@ -5,14 +5,14 @@ $menu-font-color: #FFFFFF;
   margin-top: 3rem;
   display: flex;
   justify-content: space-evenly;
-
+  align-items: center;
   .short-movie {
-    background-color: $main-background-color;
-    height: 45.1rem;
-    width: 100rem;
+    background-color: #1c1d1f;
     display: flex;
     justify-content: center;
-
+align-items: center;
+    width: 60rem;
+    height: 30rem;
   }
 
   .about-me {

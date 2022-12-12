@@ -32,6 +32,7 @@
   max-height: 18.75rem;
   position: relative;
   overflow: hidden;
+  margin-bottom: 3rem;
 }
 .recommendations .single-recommendation__circle-accent {
   width: 18.75rem;
@@ -195,13 +196,15 @@
   margin-top: 3rem;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 .about .short-movie {
-  background-color: #212529;
-  height: 45.1rem;
-  width: 100rem;
+  background-color: #1c1d1f;
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 60rem;
+  height: 30rem;
 }
 .about .about-me {
   display: flex;
