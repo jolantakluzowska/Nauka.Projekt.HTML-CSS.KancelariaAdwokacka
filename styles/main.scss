@@ -1,6 +1,7 @@
 @import "nav";
 @import "recommendation";
 @import "animations";
+@import "description";
 
 $main-background-color: #212529;
 $menu-font-color: #FFFFFF;
@@ -59,20 +60,25 @@ body {
   display: flex;
 
   .intro {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left:20rem;
+    margin-right: 40rem;
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
     background-color: $main-background-color;
     color: #dddddd;
-    margin-left: 2rem;
-margin-right: 10rem;
-
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     h1 {
-
+margin-bottom: 2rem;
       font-size: 1.5rem;
 
+
     }
 
-    h2 {
-      font-size: 1.2rem;
-    }
   }
     .intro__button {
       border-left: #FFFFFF solid 0.1rem;
@@ -104,6 +110,8 @@ border-left-style: groove;
 
 
 .about {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
   display: flex;
   justify-content: space-evenly;
 
