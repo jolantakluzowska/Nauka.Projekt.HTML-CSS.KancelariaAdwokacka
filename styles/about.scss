@@ -1,0 +1,38 @@
+$main-background-color: #212529;
+$menu-font-color: #FFFFFF;
+.about {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+
+  .short-movie {
+    background-color: $main-background-color;
+    height: 45.1rem;
+    width: 100rem;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    background: #1c1d1f;
+    height: 45.1rem;
+    width: 50rem;
+    color: #DCDCDC;
+
+    h1, h2, h3 {
+      text-align: center;
+      align-content: center;
+    }
+
+  }
+
+  img {
+    width: 70%;
+    height: 70%;
+    margin: 0;
+  }
+}
