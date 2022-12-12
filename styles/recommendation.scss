@@ -1,5 +1,5 @@
 .recommendations {
-display: flex;
+  display: flex;
   justify-content: space-evenly;
 
   .single-recommendation {
@@ -22,7 +22,7 @@ display: flex;
     }
 
     &__quote-icon { // todo: replace wit quote icon
-     font-size: 2rem;
+      font-size: 2rem;
 
     }
 
@@ -42,7 +42,7 @@ display: flex;
         width: 3.7rem;
         height: 3.7rem;
         background: url("./../assets/images/60x60.png");
-        margin-right:  1rem;
+        margin-right: 1rem;
 
       }
 
