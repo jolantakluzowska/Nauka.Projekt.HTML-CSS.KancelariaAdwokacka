@@ -101,6 +101,52 @@
   animation-iteration-count: infinite;
 }
 
+.description {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: #212529;
+  display: flex;
+}
+.description .price {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 20rem;
+  margin-right: 40rem;
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  background-color: #212529;
+  color: #dddddd;
+  font-size: 1.2rem;
+}
+.description .price h1 {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.description .description__button {
+  border-left: #FFFFFF solid 0.1rem;
+  border-left-style: groove;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95rem;
+}
+.description .description__button .button {
+  color: #FFFFFF;
+  border: #DCDCDC 0.1rem solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 38rem;
+  height: 4rem;
+  background-color: #495057;
+  font-size: 1.5rem;
+}
+
 body {
   background-color: #212529;
   font-family: "Radley", serif;
@@ -144,16 +190,22 @@ body {
   display: flex;
 }
 .content .intro {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 20rem;
+  margin-right: 40rem;
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
   background-color: #212529;
   color: #dddddd;
-  margin-left: 2rem;
-  margin-right: 10rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }
 .content .intro h1 {
+  margin-bottom: 2rem;
   font-size: 1.5rem;
-}
-.content .intro h2 {
-  font-size: 1.2rem;
 }
 .content .intro__button {
   border-left: #FFFFFF solid 0.1rem;
@@ -178,6 +230,8 @@ body {
 }
 
 .about {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
   display: flex;
   justify-content: space-evenly;
 }
