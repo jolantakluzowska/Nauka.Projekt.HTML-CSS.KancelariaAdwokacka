@@ -6,36 +6,50 @@ $menu-font-color: #FFFFFF;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
   .short-movie {
     background-color: #1c1d1f;
     display: flex;
     justify-content: center;
-align-items: center;
+    align-items: center;
     width: 60rem;
     height: 30rem;
   }
 
   .about-me {
-    display: flex;
+
+
     flex-direction: column;
     background: #1c1d1f;
     height: 45.1rem;
     width: 50rem;
     color: #DCDCDC;
-  text-align: center;
+    text-align: center;
     text-justify: auto;
-    h1, h2 {
-      text-align: center;
-      align-content: center;
 
+    &__top {
+      h1, h2 {
+        text-align: center;
+        align-content: center;
+      }
     }
 
+    &__bottom {
+      display: flex;
+      
+      &__left {
 
-  }
+      }
 
-  img {
-    width: 60%;
-    height: 60%;
-    margin: 0;
+      &__right {
+
+
+
+      img {
+
+        margin: 0;
+      }
+      }
+    }
   }
 }
