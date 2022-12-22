@@ -103,52 +103,6 @@
   animation-iteration-count: infinite;
 }
 
-.description {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  background-color: #212529;
-  display: flex;
-}
-.description .price {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-  margin-left: 20rem;
-  margin-right: 40rem;
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
-  background-color: #212529;
-  color: #dddddd;
-  font-size: 1.2rem;
-}
-.description .price h1 {
-  color: #FFFFFF;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  line-height: 2rem;
-}
-.description .description__button {
-  border-left: #FFFFFF solid 0.1rem;
-  border-left-style: groove;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 95rem;
-}
-.description .description__button .button {
-  color: #FFFFFF;
-  border: #DCDCDC 0.1rem solid;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 38rem;
-  height: 4rem;
-  background-color: #495057;
-  font-size: 1.5rem;
-}
-
 .content {
   display: flex;
   margin-bottom: 1.5rem;
@@ -166,7 +120,7 @@
   line-height: 1.5rem;
 }
 .content .intro h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   font-size: 2rem;
 }
 .content .intro__button {
@@ -207,7 +161,6 @@
   height: 30rem;
 }
 .about .about-me {
-  display: flex;
   flex-direction: column;
   background: #1c1d1f;
   height: 45.1rem;
@@ -216,13 +169,14 @@
   text-align: center;
   text-justify: auto;
 }
-.about .about-me h1, .about .about-me h2 {
+.about .about-me__top h1, .about .about-me__top h2 {
   text-align: center;
   align-content: center;
 }
-.about img {
-  width: 60%;
-  height: 60%;
+.about .about-me__bottom {
+  display: flex;
+}
+.about .about-me__bottom__right img {
   margin: 0;
 }
 
