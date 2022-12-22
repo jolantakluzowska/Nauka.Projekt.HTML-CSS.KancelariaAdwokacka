@@ -1,8 +1,9 @@
 .animation {
   .parent {
     background: url("./../assets/images/component 1.png");
-    width: 160rem;
+    width: 100vw;
     height: 12rem;
+    background-position: center;//50% 50%;
   }
 
   //.child {
