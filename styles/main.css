@@ -73,8 +73,9 @@
 
 .animation .parent {
   background: url("./../assets/images/component 1.png");
-  width: 160rem;
+  width: 100vw;
   height: 12rem;
+  background-position: center;
 }
 
 @keyframes imageAnimation {
@@ -150,16 +151,15 @@
 
 .content {
   display: flex;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 .content .intro {
+  padding: 3rem;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  margin-left: 20rem;
-  margin-right: 40rem;
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
   background-color: #212529;
   color: #dddddd;
   font-size: 1.2rem;
@@ -176,7 +176,7 @@
   justify-content: center;
   align-items: center;
   background-color: #212529;
-  width: 95rem;
+  width: 90rem;
 }
 .content .intro__button .button {
   border: #DCDCDC 0.1rem solid;

@@ -2,16 +2,14 @@ $main-background-color: #212529;
 $menu-font-color: #FFFFFF;
 .content {
   display: flex;
-
+margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
   .intro {
+    padding: 3rem;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    margin-left: 20rem;
-    margin-right: 40rem;
-    margin-top: 3rem;
-    margin-bottom: 3.5rem;
     background-color: $main-background-color;
     color: #dddddd;
     font-size: 1.2rem;
@@ -33,7 +31,7 @@ $menu-font-color: #FFFFFF;
     justify-content: center;
     align-items: center;
     background-color: $main-background-color;
-    width: 95rem;
+    width: 90rem;
 
 
     .button {

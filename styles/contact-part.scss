@@ -40,6 +40,7 @@ $second-fond-color: #dddddd;
 
 
   }
+
   .contact-form {
     border-radius: 30px;
     background-color: $main-background-color;
@@ -49,6 +50,7 @@ $second-fond-color: #dddddd;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     .title-contact-form {
       align-items: center;
       color: $menu-font-color;
@@ -56,6 +58,7 @@ $second-fond-color: #dddddd;
       margin-bottom: 4rem;
       margin-top: 3rem;
     }
+
     .name-and-surname {
       border-radius: 10px;
       display: flex;
@@ -66,6 +69,7 @@ $second-fond-color: #dddddd;
       color: #212529;
       margin-bottom: 2rem;
     }
+
     .email {
       border-radius: 10px;
       display: flex;
@@ -76,7 +80,8 @@ $second-fond-color: #dddddd;
       color: #212529;
       margin-bottom: 2rem;
     }
-    .questions{
+
+    .questions {
       border-radius: 20px;
       display: flex;
       align-items: center;
@@ -87,6 +92,7 @@ $second-fond-color: #dddddd;
       margin-bottom: 4rem;
 
     }
+
     .send {
       display: flex;
       justify-content: center;
