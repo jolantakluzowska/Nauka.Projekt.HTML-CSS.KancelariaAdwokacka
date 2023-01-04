@@ -21,8 +21,10 @@
 }
 
 .recommendations {
+  padding: 1rem;
   display: flex;
   justify-content: space-evenly;
+  gap: 2rem;
 }
 .recommendations .single-recommendation {
   background-color: #DDDDDD;
@@ -149,8 +151,10 @@
   margin-bottom: 3rem;
   margin-top: 3rem;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  column-gap: 2rem;
+  height: 33.5rem;
+  justify-content: center;
 }
 .about .short-movie {
   background-color: #1c1d1f;
@@ -158,16 +162,15 @@
   justify-content: center;
   align-items: center;
   width: 60rem;
-  height: 30rem;
+  height: 100%;
 }
 .about .about-me {
+  height: 100%;
   flex-direction: column;
   background: #1c1d1f;
-  height: 45.1rem;
   width: 50rem;
   color: #DCDCDC;
   text-align: center;
-  text-justify: auto;
 }
 .about .about-me__top h1, .about .about-me__top h2 {
   text-align: center;
@@ -175,40 +178,54 @@
 }
 .about .about-me__bottom {
   display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+}
+.about .about-me__bottom__left {
+  padding: 2rem;
+  flex-grow: 1;
+  width: 50%;
+  text-align: center;
+}
+.about .about-me__bottom__right {
+  flex-grow: 1;
+  width: 50%;
 }
 .about .about-me__bottom__right img {
   margin: 0;
 }
 
+.contact-part {
+  padding: 5rem;
+}
 .contact-part .contact .intro-contact {
   display: flex;
   font-size: 2rem;
   color: #FFFFFF;
-  margin-left: 3rem;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  justify-content: center;
 }
 .contact-part .contact .contact-details {
+  padding-top: 4rem;
+  gap: 4rem;
   display: flex;
-  align-items: center;
   font-size: 1.2rem;
   color: #dddddd;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
-}
-.contact-part .contact .contact-details .name {
-  margin-right: 4rem;
-}
-.contact-part .contact .contact-details .address {
-  margin-left: 4rem;
+  align-items: center;
+  justify-content: center;
 }
 .contact-part .contact iframe {
   width: 35rem;
   height: 30rem;
 }
-.contact-part .contact-form {
+.contact-part .second-part {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 4rem;
+}
+.contact-part .second-part .contact-form {
   border-radius: 30px;
   background-color: #212529;
   width: 28rem;
@@ -218,44 +235,24 @@
   flex-direction: column;
   align-items: center;
 }
-.contact-part .contact-form .title-contact-form {
+.contact-part .second-part .contact-form .title-contact-form {
   align-items: center;
   color: #FFFFFF;
   font-size: 1.8rem;
   margin-bottom: 4rem;
   margin-top: 3rem;
 }
-.contact-part .contact-form .name-and-surname {
+.contact-part .second-part .contact-form .contact-form-input {
   border-radius: 10px;
   display: flex;
   align-items: center;
   background-color: #FBFCFD;
   width: 22rem;
-  height: 3rem;
   color: #212529;
-  margin-bottom: 2rem;
+  padding: 1rem;
+  margin-top: 1rem;
 }
-.contact-part .contact-form .email {
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  background-color: #FBFCFD;
-  width: 22rem;
-  height: 3rem;
-  color: #212529;
-  margin-bottom: 2rem;
-}
-.contact-part .contact-form .questions {
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  background-color: #FBFCFD;
-  width: 22rem;
-  height: 10rem;
-  color: #212529;
-  margin-bottom: 4rem;
-}
-.contact-part .contact-form .send {
+.contact-part .second-part .contact-form .send {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -264,6 +261,7 @@
   height: 3rem;
   color: #FFFFFF;
   margin-bottom: 2rem;
+  margin-top: 3rem;
 }
 
 body {

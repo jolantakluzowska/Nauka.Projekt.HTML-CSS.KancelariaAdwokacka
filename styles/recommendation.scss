@@ -1,7 +1,8 @@
 .recommendations {
+  padding: 1rem;
   display: flex;
   justify-content: space-evenly;
-
+gap: 2rem;
   .single-recommendation {
     background-color: #DDDDDD;
     border-radius: 40px;

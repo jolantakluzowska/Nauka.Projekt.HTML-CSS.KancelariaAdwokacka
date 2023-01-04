@@ -2,35 +2,40 @@ $main-background-color: #212529;
 $menu-font-color: #FFFFFF;
 $second-fond-color: #dddddd;
 .contact-part {
+  padding: 5rem;
+
   .contact {
     .intro-contact {
       display: flex;
       font-size: 2rem;
       color: $menu-font-color;
-      margin-left: 3rem;
-      margin-top: 4rem;
-      margin-bottom: 4rem;
-
+      justify-content: center;
     }
 
     .contact-details {
+      padding-top: 4rem;
+      gap: 4rem;
       display: flex;
-      align-items: center;
       font-size: 1.2rem;
       color: $second-fond-color;
-      margin-top: 4rem;
-      margin-bottom: 4rem;
-      margin-left: 10rem;
-      margin-right: 10rem;
+      align-items: center;
+      justify-content: center;
+
 
       .name {
-        margin-right: 4rem;
       }
 
+
+
       .address {
-        margin-left: 4rem;
+
+      }
+
+      .empty-place {
+
       }
     }
+
 
     iframe {
       width: 35rem;
@@ -41,67 +46,59 @@ $second-fond-color: #dddddd;
 
   }
 
-  .contact-form {
-    border-radius: 30px;
-    background-color: $main-background-color;
-    width: 28rem;
-    height: 40rem;
-    border: $menu-font-color 0.1rem solid;
+  .second-part {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4rem;
 
-    .title-contact-form {
-      align-items: center;
-      color: $menu-font-color;
-      font-size: 1.8rem;
-      margin-bottom: 4rem;
-      margin-top: 3rem;
-    }
-
-    .name-and-surname {
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      background-color: #FBFCFD;
-      width: 22rem;
-      height: 3rem;
-      color: #212529;
-      margin-bottom: 2rem;
-    }
-
-    .email {
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      background-color: #FBFCFD;
-      width: 22rem;
-      height: 3rem;
-      color: #212529;
-      margin-bottom: 2rem;
-    }
-
-    .questions {
-      border-radius: 20px;
-      display: flex;
-      align-items: center;
-      background-color: #FBFCFD;
-      width: 22rem;
-      height: 10rem;
-      color: #212529;
-      margin-bottom: 4rem;
+    .map {
 
     }
 
-    .send {
+    .contact-form {
+      border-radius: 30px;
+      background-color: $main-background-color;
+      width: 28rem;
+      height: 40rem;
+      border: $menu-font-color 0.1rem solid;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
-      background-color: #495057;
-      width: 22rem;
-      height: 3rem;
-      color: $menu-font-color;
-      margin-bottom: 2rem;
+
+      .title-contact-form {
+        align-items: center;
+        color: $menu-font-color;
+        font-size: 1.8rem;
+        margin-bottom: 4rem;
+        margin-top: 3rem;
+      }
+
+      .contact-form-input {
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        background-color: #FBFCFD;
+        width: 22rem;
+        color: #212529;
+        padding: 1rem;
+        margin-top: 1rem;
+      }
+
+      .send {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #495057;
+        width: 22rem;
+        height: 3rem;
+        color: $menu-font-color;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+      }
+
     }
   }
 }
