@@ -2,14 +2,18 @@ $main-background-color: #212529;
 $menu-font-color: #FFFFFF;
 $second-fond-color: #dddddd;
 .contact-part {
-  padding: 5rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-right: 15rem;
+  padding-left: 10rem;
 
   .contact {
     .intro-contact {
+
       display: flex;
       font-size: 2rem;
       color: $menu-font-color;
-      justify-content: center;
+      margin-left: 1.2rem;
     }
 
     .contact-details {
@@ -19,29 +23,30 @@ $second-fond-color: #dddddd;
       font-size: 1.2rem;
       color: $second-fond-color;
       align-items: center;
-      justify-content: center;
+      justify-content: left;
 
 
       .name {
+        flex-grow: 1;
+        border-right: #F0E2E2 solid  0.1rem;
+        margin: 1rem;
       }
 
 
 
-      .address {
+      .address {flex-grow: 1;
 
+        margin-left: 1.5rem;
       }
 
       .empty-place {
+        flex-grow: 12;
 
       }
     }
 
 
-    iframe {
-      width: 35rem;
-      height: 30rem;
 
-    }
 
 
   }
@@ -52,13 +57,19 @@ $second-fond-color: #dddddd;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 4rem;
-
+    gap: min(8rem);
+    margin-right: min(8rem);
     .map {
+      iframe {
 
+        width: 45rem;
+        height: 35rem;
+        border-radius: 25px;
+      }
     }
 
     .contact-form {
+
       border-radius: 30px;
       background-color: $main-background-color;
       width: 28rem;
@@ -85,9 +96,11 @@ $second-fond-color: #dddddd;
         color: #212529;
         padding: 1rem;
         margin-top: 1rem;
+        font-family: 'Radley', serif;
       }
 
       .send {
+        font-family: 'Radley', serif;
         display: flex;
         justify-content: center;
         align-items: center;
