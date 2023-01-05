@@ -264,6 +264,34 @@
   margin-top: 3rem;
 }
 
+.footer {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  display: flex;
+  font-size: 1rem;
+  color: #F0E2E2;
+  background-color: #1c1d1f;
+  justify-content: space-between;
+}
+.footer .footer-first-part {
+  display: flex;
+  gap: 0.8rem;
+}
+.footer .footer-first-part .fa-facebook {
+  font-size: 1.3rem;
+  color: #5B68C0;
+}
+.footer .footer-first-part .fa-youtube {
+  font-size: 1.3rem;
+  color: #E43535;
+}
+.footer .footer-first-part .fa-linkedin {
+  font-size: 1.3rem;
+  color: #0A3586;
+}
+
 body {
   background-color: #212529;
   font-family: "Radley", serif;
